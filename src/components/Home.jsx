@@ -12,7 +12,7 @@ import Hero9 from './Hero9'
 
 const Home = () => {
   return (
-    <div className=' sm:ml-5 md::2 lg:ml-0 xl:ml-0'>
+    <div className='ml-6 sm:ml-5 md::2 lg:ml-0 xl:ml-0'>
         <Hero/>
         <Hero2/>
         <Hero3/>

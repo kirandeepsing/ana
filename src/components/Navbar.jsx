@@ -11,7 +11,7 @@ import {
 
 const Navbar = () => {
   return (
-    <div className='h-[90px]  flex flex-wrap justify-between w-full md:w-1/2]  '>
+    <div className='h-[90px] min-w-[400px] overflow-hiden flex flex-wrap justify-between w-full md:w-1/2]  '>
 <img className='h-[80px] w-[190px]' src="https://www.anayatglobalworks.com/assets/img/Logo-OnWhite.webp" alt="" />
 <div className='flex flex-wrap'>
     <ul className=' justify-center items-center gap-11 mr-4 hidden text-sm font-bold sm:flex'>
