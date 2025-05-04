@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => {
   return (
 <>
-<div className='h-auto md:h-[450px] sm:h-auto sm:ml-5 ml-6 sm:ml-0 text-2xl md:ml-0 min-w-[400px] flex flex-wrap items-center bg-gray-100'>
+<div className='h-auto md:h-[450px] sm:h-auto sm:ml-5  sm:ml-0 text-2xl md:ml-0 min-w-[400px] flex flex-wrap items-center bg-gray-100'>
       <div className=' w-full md:w-[33%] md:ml-3 flex flex-col justify-evenly space-y-9 mt-5'>
         <img className='h-20 w-32' src="https://www.anayatglobalworks.com/assets/img/Logo-OnWhite.webp" alt="" />
         <h2>Our highly skilled development teams specialized in Java, PHP, React, Angular and AWS help you accelarate.</h2>
