@@ -17,7 +17,37 @@ const Navbar = () => {
     <ul className=' justify-center items-center gap-11 mr-4 hidden text-sm font-bold sm:flex'>
         <li><Link to={"/"}>Home</Link></li>
         <li><Link to={"/about"}>About Us</Link></li>
+
+<div className='relative group'>
+
         <li><Link>Services</Link></li>
+        <div className='absolute px-15 z-10 rounded-xl cursor-pointer h-66   w-44 top-7 opacity-0 group-hover:opacity-100 transition-all duration-200 space-y-5 -left-15 bg-white border-1 shadow-2xl'>
+          <div>
+<Link to={"/"}>home</Link>
+          </div>
+<div>
+<Link to={"about"}>about</Link>
+</div>
+<div>
+<Link to={"/services"}>services</Link>
+</div>
+<div>
+<Link to={"/contact"}>contact us </Link>
+</div>
+<div>
+<Link to={"/blog"}>blog</Link>
+</div>
+<div>
+<Link to={"/job"}>job</Link>
+</div>
+
+        </div>
+</div>
+
+
+
+
+
         <li><Link to={"/blog"}>Blog</Link></li>
         <li><Link to={"/contact"}>Contact Us</Link></li>
         <li><Link to={"/job"}>Job</Link></li>
