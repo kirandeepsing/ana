@@ -38,7 +38,7 @@ const images = [{
 
 const Hero4 = () => {
   return (
-    <div className='bg-gray-300 w-full min-w-[400px] max-w-[2000px]  h-[600px] mt-80 sm:mt-0 sm:mt-0 flex flex-col justify-center gap-5 items-center'>
+    <div className='bg-gray-300 w-full min-w-[400px]  max-w-[2000px]  h-[600px] mt-66  sm:mt-20 flex flex-col justify-center gap-5 items-center'>
       <div className='flex flex-wrap items-center'>
  
       <button className=' flex outline-none border-none bg-white w-32 border-2 h-10  items-center justify-around'>
@@ -55,8 +55,8 @@ const Hero4 = () => {
         spaceBetween={20}
         slidesPerView={3}
         loop={true}
-        autoplay={{ delay: 0, disableOnInteraction: false }}
-        speed={3000} // Speed of transition
+        autoplay={{ delay: 1000, disableOnInteraction: true }}
+        speed={4000} 
         grabCursor={true}
         breakpoints={{
           250: {

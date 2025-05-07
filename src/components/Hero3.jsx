@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from "framer-motion";
 const Hero3 = () => {
   return (
-    <div className='bg-[url("https://www.anayatglobalworks.com/assets/img/about/about7_lines.webp")] bg-cover bg-center h-[600px] w-full  items-center flex flex-wrap md:flex-nowrap'>
+    <div className='bg-[url("https://www.anayatglobalworks.com/assets/img/about/about7_lines.webp")] bg-cover bg-center h-[600px] w-full  items-center flex flex-wrap md:flex-nowrap mt-12 sm:mt-12 md:mt-10 lg:mt-2'>
         {/* this section is for the left section */}
         <div className='flex flex-col ml-4 gap-4 w-[100%] sm:w-[40%]'>
         <div className='flex gap-3 items-center'>
@@ -24,18 +24,18 @@ const Hero3 = () => {
         </div>
         <button className=' flex outline-none ml-6 border-none bg-purple-400 w-40 border-2 h-10 rounded-full items-center justify-around'>
             <h2 className='text-sm text-white font-bold'>get started now </h2>
-            <div className=' rounded-full h-8 text-sm w-8 bg-gray-100  flex items-center'> <MoveRight /></div>
+            <div className=' rounded-full h-8 text-sm w-8 bg-gray-100 cursor-pointer  shadow-2xl flex items-center transform transition-transform duration-300 ease-in-out hover:translate-x-1 '> <MoveRight /></div>
         </button>
         </div>
-        {/* this section is tfor the right section */}
-        <div className='relative w-[44%] mt-3'>
+        {/* this section is for the right section */}
+        <div className='relative w-[44%] mt-12'>
             <img className='min-w-96 ml-0' src="https://www.anayatglobalworks.com/assets/img/about/about7.webp" alt="" />
             <motion.img
   src="https://www.anayatglobalworks.com/assets/img/about/about7_chart.webp"
   alt=""
-  className="absolute top-32 right-[50px] z-10 sm:right-[150px] md:right-[300px]"
+  className="absolute top-32 right-[50px] z-10 sm:right-[150px] md:right-[100px] "
   animate={{
-    y: [0, -20, 0], // Move up -20px and come back
+    y: [0, -20, 0], 
   }}
   transition={{
     duration: 2,

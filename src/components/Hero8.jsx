@@ -23,8 +23,8 @@ const Hero8 = () => {
  <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
     <AccordionTrigger className=" bg-gray-300 font-bold hover:no-underline cursor-pointer">Skilled And Expirenced Team</AccordionTrigger>
-    <AccordionContent>
-      Yes. It adheres to the WAI-ARIA design pattern.    Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
+    <AccordionContent className="bg-amber-50 rounded-lg">
+      Yes. It adheres to the WAI-ARIA design pattern. Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
     </AccordionContent>
   </AccordionItem>
 </Accordion>
@@ -34,8 +34,8 @@ const Hero8 = () => {
  <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
     <AccordionTrigger className=" bg-gray-300 font-bold hover:no-underline cursor-pointer">Deliver As per costumer needs</AccordionTrigger>
-    <AccordionContent>
-      Yes. It adheres to the WAI-ARIA design pattern.    Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
+    <AccordionContent className="bg-amber-50 rounded-lg">
+      Yes. It adheres to the WAI-ARIA design pattern. Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
     </AccordionContent>
   </AccordionItem>
 </Accordion>
@@ -45,8 +45,8 @@ const Hero8 = () => {
  <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
     <AccordionTrigger className=" bg-gray-300 font-bold hover:no-underline cursor-pointer" >Covering mobile app development solutions </AccordionTrigger>
-    <AccordionContent>
-      Yes. It adheres to the WAI-ARIA design pattern.    Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
+    <AccordionContent className="bg-amber-50 rounded-lg">
+      Yes. It adheres to the WAI-ARIA design pattern. Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
     </AccordionContent>
   </AccordionItem>
 </Accordion>
@@ -56,8 +56,8 @@ const Hero8 = () => {
  <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
     <AccordionTrigger className=" bg-gray-300 font-bold hover:no-underline cursor-pointer">providing mobile web development solutions </AccordionTrigger>
-    <AccordionContent>
-      Yes. It adheres to the WAI-ARIA design pattern.    Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
+    <AccordionContent className="bg-amber-50 rounded-lg">
+      Yes. It adheres to the WAI-ARIA design pattern. Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
     </AccordionContent>
   </AccordionItem>
 </Accordion>
@@ -67,8 +67,8 @@ const Hero8 = () => {
  <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
     <AccordionTrigger className=" bg-gray-300 font-bold hover:no-underline cursor-pointer">One of the top ratred agencies on the upwork </AccordionTrigger>
-    <AccordionContent>
-      Yes. It adheres to the WAI-ARIA design pattern.    Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
+    <AccordionContent className="bg-amber-50 rounded-lg">
+      Yes. It adheres to the WAI-ARIA design pattern. Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
     </AccordionContent>
   </AccordionItem>
 </Accordion>
@@ -78,8 +78,8 @@ const Hero8 = () => {
  <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
     <AccordionTrigger className=" bg-gray-300 hover:no-underline cursor-pointer font-bold">Qualified web developers at the servoce for the costumer need</AccordionTrigger>
-    <AccordionContent>
-      Yes. It adheres to the WAI-ARIA design pattern.    Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
+    <AccordionContent className="bg-amber-50 rounded-lg">
+      Yes. It adheres to the WAI-ARIA design pattern. Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
     </AccordionContent>
   </AccordionItem>
 </Accordion>
@@ -89,8 +89,8 @@ const Hero8 = () => {
  <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
     <AccordionTrigger className=" bg-gray-300 font-bold hover:no-underline cursor-pointer">Hire thebest web development company at your prevlience </AccordionTrigger>
-    <AccordionContent>
-      Yes. It adheres to the WAI-ARIA design pattern.    Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
+    <AccordionContent className="bg-amber-50 rounded-lg">
+      Yes. It adheres to the WAI-ARIA design pattern. Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
     </AccordionContent>
   </AccordionItem>
 </Accordion>

@@ -9,7 +9,6 @@ import Hero7 from './Hero7'
 import Hero8 from './Hero8'
 import Hero9 from './Hero9'
 
-
 const Home = () => {
   return (
     <div className='ml-6 sm:ml-5 md::2 lg:ml-0 xl:ml-0'>
@@ -22,7 +21,7 @@ const Home = () => {
        <Hero7/>
        <Hero8/>
        <Hero9/>
-       
+
     </div>
   )
 }

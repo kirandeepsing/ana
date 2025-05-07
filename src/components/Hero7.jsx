@@ -57,7 +57,7 @@ const settings = {
 
 const Hero7 = () => {
   return (
-    <div className='md:h-[700px] h-[200px] min-w-[400px] flex flex-col  gap-10'>
+    <div className='md:h-[700px] h-[200px] min-w-[400px] flex flex-col gap-10'>
           <div className='flex items-center justify-center mt-10'>
       <img className='h-3 w-20' src="https://www.anayatglobalworks.com/assets/img/line_l.png" alt="" />
      <h2>Feedbacks</h2> 
@@ -93,7 +93,7 @@ const Hero7 = () => {
   alt=""
   className="absolute top-32 right-[50px] -z-1 h-10 sm:right-[150px] md:left-[100px]  md:top-0"
   animate={{
-    y: [0, -20, 0], // Move up -20px and come back
+    y: [0, -20, 0], 
   }}
   transition={{
     duration: 2,
@@ -106,7 +106,7 @@ const Hero7 = () => {
   alt=""
   className="absolute top-5 right-[300px] -z-1 h-15 sm:right-[150px] md:right-[100px]  md:top-26"
   animate={{
-    y: [0, -20, 0], // Move up -20px and come back
+    y: [0, -20, 0], 
   }}
   transition={{
     duration: 2,
@@ -117,7 +117,7 @@ const Hero7 = () => {
 <motion.div
   className="absolute top-20 left-[-10px] sm:left-[-60px] overflow-hidden w-24 h-24 rounded-full bg-gray-100 -z-10  "
   animate={{
-    y: [0, 10, 0], // Moves left → right → left
+    y: [0, 10, 0], 
   }}
   transition={{
     duration: 4,
@@ -137,7 +137,7 @@ const Hero7 = () => {
 <div>
 <button className=' flex outline-none border-none bg-purple-400 w-40 border-2 h-10 rounded-full items-center justify-around'>
             <h2 className='text-sm text-white font-bold'>get quote </h2>
-            <div className=' rounded-full h-8 text-sm w-8 bg-gray-100  flex items-center'> <MoveRight /></div>
+            <div className=' rounded-full h-8 text-sm w-8 bg-gray-100 transform transition-transform cursor-pointer duration-300 ease-in-out hover:translate-x-1 shadow-2xl flex items-center'> <MoveRight /></div>
         </button>
 </div>
   </div>

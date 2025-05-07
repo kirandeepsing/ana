@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
-   {/* this is the left side bar section */}
    <div  className="flex flex-wrap bg-[url('https://www.anayatglobalworks.com/assets/img/header/head7_bg.webp')] bg-cover bg-center min-h-[450px] w-full justify-between">
- <div className='h-[450px] flex flex-col md:w-1/2] '>
+      {/* this is the left side bar section */}
+ <div className='h-[450px] flex flex-col md:w-1/2] md:ml-5'>
  <div className=' flex  gap-3 ml-4 items-center '>
         <img className='h-[7px] w-[70px]' src="https://www.anayatglobalworks.com/assets/img/line_l.png" alt="" />
       <h2 className='font-bold text-purple-500 text-sm'>Get solid solution </h2>
@@ -19,9 +19,9 @@ const Hero = () => {
       <h2 className='text-6xl font-bold mt-3'>firm</h2>
       </div>
       <div className='flex flex-wrap mt-20 gap-4 ml-36'>
-        <button className=' flex outline-none border-none bg-purple-400 w-40 border-2 h-10 rounded-full items-center justify-around'>
+        <button className=' flex outline-none border-none hover:shadow-2xl cursor-pointer bg-purple-600 w-40 border-2 h-10 rounded-full items-center justify-around'>
             <h2 className='text-sm text-white font-bold'>get started now </h2>
-            <div className=' rounded-full h-8 text-sm w-8 bg-gray-100  flex items-center'> <MoveRight /></div>
+            <div className=' rounded-full h-8 text-sm w-8 bg-gray-100 transform transition-transform duration-300 ease-in-out  hover:translate-x-1 flex items-center'> <MoveRight /></div>
         </button>
         <div>
             <h2 className='text-sm'> Support Email</h2>
@@ -37,14 +37,14 @@ const Hero = () => {
       src="https://www.anayatglobalworks.com/assets/img/header/head7_rock.webp"
       alt=""
       animate={{
-        y: [0, 20, 0], // Moves from y:0 to y:20 and back to y:0
+        y: [0, 20, 0], 
       }}
       transition={{
         y: {
-          repeat: Infinity, // Keeps repeating the animation
-          repeatType: "loop", // Loops infinitely
-          duration: 2, // Adjust the duration of each loop
-          ease: "easeInOut", // Smooth transition
+          repeat: Infinity, 
+          repeatType: "loop", 
+          duration: 2, 
+          ease: "easeInOut",
         },
       }}
     

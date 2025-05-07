@@ -14,13 +14,13 @@ const Hero9 = () => {
             <div>
             <button className=' flex outline-none border-none bg-purple-400 w-40 border-2 h-10 rounded-full items-center justify-around'>
             <h2 className='text-sm text-white font-bold'>get started now </h2>
-            <div className=' rounded-full h-8 text-sm w-8 bg-gray-100  flex items-center'> <MoveRight /></div>
+            <div className=' rounded-full h-8 text-sm w-8 bg-gray-100 transform transition-transform duration-300 ease-in-out hover:translate-x-1 cursor-pointer shadow-2xl flex items-center'> <MoveRight /></div>
         </button>
             </div>
             <div>
             <button className=' flex outline-none border-none bg-purple-400 w-40 border-2 h-10 rounded-full items-center justify-around'>
             <h2 className='text-sm text-white font-bold'>get started now </h2>
-            <div className=' rounded-full h-8 text-sm w-8 bg-gray-100  flex items-center'> <MoveRight /></div>
+            <div className=' rounded-full h-8 text-sm w-8 bg-gray-100 transform transition-transform duration-300 ease-in-out hover:translate-x-1 cursor-pointer shadow-2xl flex items-center'> <MoveRight /></div>
         </button>
             </div>
         </div>

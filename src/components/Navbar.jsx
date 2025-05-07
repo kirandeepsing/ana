@@ -11,16 +11,16 @@ import {
 
 const Navbar = () => {
   return (
-    <div className='h-[90px] min-w-[400px] overflow-hiden flex flex-wrap justify-between w-full md:w-1/2]  '>
+    <div className='h-[90px] md:w-[full]  lg:w-full xl:w-full  flex flex-wrap justify-between w-full md:w-1/2]  '>
 <img className='h-[80px] w-[190px]' src="https://www.anayatglobalworks.com/assets/img/Logo-OnWhite.webp" alt="" />
 <div className='flex flex-wrap'>
     <ul className=' justify-center items-center gap-11 mr-4 hidden text-sm font-bold sm:flex'>
-        <li><Link>Home</Link></li>
-        <li><Link>About Us</Link></li>
+        <li><Link to={"/"}>Home</Link></li>
+        <li><Link to={"/about"}>About Us</Link></li>
         <li><Link>Services</Link></li>
-        <li><Link>Blog</Link></li>
-        <li><Link>Contact Us</Link></li>
-        <li><Link>Job</Link></li>
+        <li><Link to={"/blog"}>Blog</Link></li>
+        <li><Link to={"/contact"}>Contact Us</Link></li>
+        <li><Link to={"/job"}>Job</Link></li>
     </ul>
     <Sheet>
   <SheetTrigger className="md:hidden sm:hidden block"><img src="https://www.anayatglobalworks.com/assets/img/icons/4dots.png" alt="" /></SheetTrigger>

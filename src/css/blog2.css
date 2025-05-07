@@ -1,0 +1,52 @@
+/* this section is mainly for the media queries */
+@media (max-width:1236px){
+    .search{
+        margin-top: 600px;
+    }
+    
+}
+@media (max-width:824px){
+    .search{
+        margin-top: 800px;
+    }
+    
+}
+@media (max-width:1178px){
+  .newsletter{
+    margin-top: 900px;
+  }
+    
+}
+@media (max-width:863px){
+  .newsletter{
+    margin-top: 1000px;
+  }
+    
+}
+
+@media (max-width:863px){
+  .newspaperr{
+    margin-top: 100px;
+  }
+  .search{
+    margin-top: 1200px;
+  }
+    
+}
+@media (max-width:767px){
+    .newsletter{
+        margin-top: 1560px;
+      }
+}
+@media (max-width:797px){
+    .blog1 img{
+        height: 500px;
+    }
+}
+.blog1 img{
+    height: 500px;
+}
+@media (max-width:400px){
+    
+}
+
