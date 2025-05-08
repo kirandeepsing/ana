@@ -11,17 +11,16 @@ import {
 
 const Navbar = () => {
   return (
-    <div className='h-[90px] md:w-[full]  lg:w-full xl:w-full  flex flex-wrap justify-between w-full md:w-1/2]  '>
+    <div className='h-[90px] md:w-[full] bg-white shadow-sm z-20 sticky top-0  min-w-[400px] lg:w-full xl:w-full  flex flex-wrap justify-between w-full md:w-1/2]  '>
 <img className='h-[80px] w-[190px]' src="https://www.anayatglobalworks.com/assets/img/Logo-OnWhite.webp" alt="" />
 <div className='flex flex-wrap'>
     <ul className=' justify-center items-center gap-11 mr-4 hidden text-sm font-bold sm:flex'>
         <li><Link to={"/"}>Home</Link></li>
         <li><Link to={"/about"}>About Us</Link></li>
 
-<div className='relative group'>
-
-        <li><Link>Services</Link></li>
-        <div className='absolute px-15 z-10 rounded-xl cursor-pointer h-66   w-44 top-7 opacity-0 group-hover:opacity-100 transition-all duration-200 space-y-5 -left-15 bg-white border-1 shadow-2xl'>
+<div>
+        <li><Link to={"/products"} className='relative group'>Products</Link></li>
+        <div className='absolute px-15 z-5 rounded-xl cursor-pointer h-66   w-44 top-7 opacity-0 group-hover:opacity-100 transition-all duration-200 space-y-5 -left-15 bg-white border-1 shadow-2xl'>
           <div>
 <Link to={"/"}>home</Link>
           </div>
@@ -29,7 +28,7 @@ const Navbar = () => {
 <Link to={"about"}>about</Link>
 </div>
 <div>
-<Link to={"/services"}>services</Link>
+<Link to={"/Products"}>Products</Link>
 </div>
 <div>
 <Link to={"/contact"}>contact us </Link>

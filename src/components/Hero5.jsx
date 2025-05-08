@@ -53,7 +53,7 @@ const images = [{
   
 const Hero5 = () => {
   return (
-    <div className='flex min-w-[400px] w-full flex-wrap md:flex-nowrap mt-20'>
+    <div className='flex min-w-[400px]  w-full sm:h-auto md:h-auto flex-wrap md:flex-nowrap mt-20'>
                    {/* this section is the left section basically */}
                    <div className='flex flex-col flex-wrap gap-4  items-center min-w-[400px] w-full md:w-1/3  h-[500px]'>
 

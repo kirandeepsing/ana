@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Blog from './components/Blog';
 import Job from './components/Job.jsx';
 import Contact from './components/Contact.jsx';
+import Products from './components/Products.jsx';
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Route path="/blog" element={<Blog />} />
       <Route path="/job" element={<Job />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/products" element={<Products />} />
     </Routes>
     <Footer/>
     </Router>
