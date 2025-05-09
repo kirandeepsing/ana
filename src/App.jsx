@@ -8,6 +8,7 @@ import Blog from './components/Blog';
 import Job from './components/Job.jsx';
 import Contact from './components/Contact.jsx';
 import Products from './components/Products.jsx';
+import Admin from './components/Admin.jsx';
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Route path="/job" element={<Job />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/products" element={<Products />} />
+      <Route path="/admin" element={<Admin />} />
     </Routes>
     <Footer/>
     </Router>

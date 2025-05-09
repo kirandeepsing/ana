@@ -39,17 +39,15 @@ const Navbar = () => {
 <div>
 <Link to={"/job"}>job</Link>
 </div>
-
         </div>
 </div>
-
-
-
-
 
         <li><Link to={"/blog"}>Blog</Link></li>
         <li><Link to={"/contact"}>Contact Us</Link></li>
         <li><Link to={"/job"}>Job</Link></li>
+        <div>
+<Link to={"/admin"}>Admin</Link>
+</div>
     </ul>
     <Sheet>
   <SheetTrigger className="md:hidden sm:hidden block"><img src="https://www.anayatglobalworks.com/assets/img/icons/4dots.png" alt="" /></SheetTrigger>

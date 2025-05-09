@@ -21,7 +21,6 @@ const images = [{
     text:" lorem Anayat cies on Upwork, highly appreciated for providing mobile app development services. Acknowledged as one of the best mobile app development companies, we always deliver cutting-edge solutions to assist businesses"
   },
 
-
   ];
   const settings = {
     dots: true,
@@ -56,7 +55,6 @@ const Hero5 = () => {
     <div className='flex min-w-[400px]  w-full sm:h-auto md:h-auto flex-wrap md:flex-nowrap mt-20'>
                    {/* this section is the left section basically */}
                    <div className='flex flex-col flex-wrap gap-4  items-center min-w-[400px] w-full md:w-1/3  h-[500px]'>
-
 <div className='flex mt-20 gap-4 '>
 <img className='h-3 w-20' src="https://www.anayatglobalworks.com/assets/img/line_l.png" alt="" />
 <p className='font-bold'>Case Study</p>

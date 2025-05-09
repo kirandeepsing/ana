@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../css/job.css"
 import { MoveRight } from 'lucide-react'
+import { useDispatch } from 'react-redux'
+import { setProducts } from '../redux/productSlice'
 const job1 = [
     {
         img: "https://www.anayatglobalworks.com/assets/img/icons/features/14.png",
@@ -65,6 +67,19 @@ const job3 = [
 ]
 
 const Job = () => {
+    const dispatch = useDispatch()
+    const [firstname, setfirstname] = useState("")
+    const [lastname, setlastname] = useState("")
+    const [phoneno, setphoneno] = useState("")
+    const [coverletter, setcoverletter] = useState("")
+
+   const handlesubmit = (e) =>{
+e.preventDefault();
+const user = {firstname,lastname,phoneno,coverletter}
+console.log("the value of the user name", user)
+dispatch(setProducts(user))
+
+   }
     return (
         <>
          <div className='flexx '>
@@ -90,7 +105,6 @@ const Job = () => {
                     return (
                         <div className='fullitem2  sm:ml-0' key={key}>
                             <div className='relative'>
-
                             <img className='absolute top-[-60px] left-0' src={item.img} alt="" />
                             </div>
                             <h3 className=''>{item.txt}</h3>
@@ -109,7 +123,6 @@ const Job = () => {
                     return (
                         <div className='fullitem2  sm:ml-0' key={key}>
                         <div className='relative'>
-
                             <img className='absolute   top-[-60px] left-0' src={item.img} alt="" />
                         </div>
                             <h3>{item.txt}</h3>
@@ -143,21 +156,33 @@ const Job = () => {
 </div>
 </div>
    {/* this is the right div section */}
-<div className='right ml-32  mt-15'>
+<form onClick={handlesubmit} className='right ml-32  mt-15'>
 <div className='flex flex-wrap gap-6 sm:flex-nowrap'>
-    <input  className='input rounded-lg  border-1  text-black font-bold ' type="text" placeholder='Full Name' />
-    <input className='input rounded-lg  border-1  text-black font-bold ml-10' type="Email Adress" placeholder='Email Adress' />
+    <input 
+    value={firstname}
+    onChange={(e)=> setfirstname(e.target.value)}
+      className='input rounded-lg  border-1  text-black font-bold ' type="text" placeholder='Full Name' />
+    <input
+    value={lastname}
+    onChange={(e)=> setlastname(e.target.value)}
+     className='input rounded-lg  border-1  text-black font-bold ml-10' type="Email Adress" placeholder='lastname' />
 </div>
 <div className='flex mt-10 flex-wrap gap-6 sm:flex-nowrap'>
-    <input className='input rounded-lg  border-1  text-black font-bold ' type="text" placeholder='Full Name' />
-    <input className='input rounded-lg  border-1  text-black font-bold ml-10' type="Email Adress" placeholder='Email Adress' />
+    <input
+    value={phoneno}
+    onChange={(e)=> setphoneno(e.target.value)}
+     className='input rounded-lg  border-1  text-black font-bold ' type="text" placeholder='mobile no' />
+    <input className='input rounded-lg  border-1  text-black font-bold ml-10' type="Email Adress" placeholder='cv' />
 </div>
-<textarea className='h-44 textarea mt-10 md:w-[630px] border-2 text-lg font-bold text-black ' name="" id="" placeholder='cover letter'></textarea>
+<textarea
+value={coverletter}
+onChange={(e)=> setcoverletter(e.target.value)}
+  className='h-44 textarea mt-10 md:w-[630px] border-2 text-lg font-bold text-black ' name="" id="" placeholder='cover letter'></textarea>
 <button  className=' mt-15 ml-80 flex outline-none border-none hover:shadow-2xl cursor-pointer bg-white text-black w-40 border-2 h-10 rounded-lg items-center justify-around'>
             <h2 className='text-sm text-black font-bold'>Make Request </h2>
             <div className=' rounded-full h-8 text-sm w-8 bg-gray-100 text-black transform transition-transform duration-300 ease-in-out  hover:translate-x-1 flex items-center'> <MoveRight /></div>
         </button>
-</div>
+</form>
 </div>
         </>
        

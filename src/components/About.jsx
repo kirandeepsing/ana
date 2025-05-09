@@ -27,7 +27,7 @@ const About = () => {
 </p>
       </div>
     </div>
-    <div className='second md:w-[1000px] px-4'>
+    <div className='second sec md:w-[1000px] px-4'>
         {/* this is first div */}
       <div>
 <h1>Our History</h1>
@@ -52,7 +52,7 @@ const About = () => {
 
       </div>
     </div>
-    <div className='second2 md:w-[800px] px-4'>
+    <div className='second2  md:w-[800px] px-4'>
         {/* this is first div */}
       <div className='img2'>
         <img src="https://www.anayatglobalworks.com/assets/img/icons/serv_icons/vision-icon.png" alt="" />

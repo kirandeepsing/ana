@@ -29,7 +29,6 @@ const Products = () => {
               console.error("Error fetching the products:", error);
             }
           };
-      
           getProfile(); 
         }, []); 
         console.log("the product second data console.log",dataa);
@@ -40,7 +39,7 @@ const addtocart = (product) => {
   if (isInCart) {
     setcart(cart.map((item) =>
       item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item
-    ));
+    ));     
   } else {
     setcart([...cart, { ...product, quantity: 1 }]);
   }
@@ -48,7 +47,7 @@ const addtocart = (product) => {
 };
 
 const TotalPrice = cart.reduce((total,item)=> total + item.price * item.quantity, 0).toFixed();
-console.log("total price",TotalPrice)
+console.log("total price",TotalPrice);
   return (               
     <>
     <h2 className='text-center text-lg font-bold mt-5'>Products</h2>
@@ -56,11 +55,11 @@ console.log("total price",TotalPrice)
     {
       dataa.map((item,index)=>{
         return(
-          <div className=' sm:w-[36%] md:w-[25%] rounded-2xl shadow-2xl h-[490px] flex flex-col space-y-6  text-sm' key={index}>
+          <div className='sm:w-[36%] md:w-[25%] rounded-2xl shadow-2xl h-[490px] flex flex-col space-y-6  text-sm' key={index}>
         <img className='h-44 w-full' src={item.image} alt="" />
-        <h2> <span className='font-bold'>Title :</span> {item.title}</h2>
-        <h2> <span className='font-bold'>Price:</span> {item.price}</h2>
-        <h2><span className='font-bold'>Description:</span> this product is awsome to use as it was one of the lastest bran of clothes which are used in the daily life and these were awsome products</h2>
+        <h2><span className='font-bold'>Title :</span> {item.title}</h2>
+        <h2><span className='font-bold'>Price:</span> {item.price}</h2>
+        <h2><span className='font-bold'>Description:</span> this product is awsome to use as it was one of the      lastest brand of clothes which are used in the daily life and these were awsome products</h2>
         <button onClick={()=>addtocart(item)} className='border-2 cursor-pointer h-10 rounded-lg tetx-lg'>add to cart</button>
           </div>
         )
