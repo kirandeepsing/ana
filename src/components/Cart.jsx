@@ -1,44 +1,39 @@
 import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { clearCart, decreaseQuantity, increaseQuantity, removeFromCart } from '../redux/cartSlice';
 
-const Cart = ({ cart, setcart }) => {
-    const increasequantity = (product) =>{
-        setcart(cart.map((item) =>
-            item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item
-          ));
-        }
-        const decreasequantity = (product) =>{
-            setcart(cart.map((item) =>
-                item.id === product.id ? { ...item, quantity: item.quantity > 1 ? item.quantity - 1 : 1 } : item
-              ));
-            }
-            const removefromcart = (product)=>{
-                setcart(cart.filter((item)=> item.id !== product.id))
-            }
-    
-    
-    console.log("cart is here ", cart)
+const Cart = () => {
+    const dispatch = useDispatch();
+const cartItems = useSelector((state)=> state.cart.cartitems);
+const TotalPrice = cartItems?.reduce((acc,item)=> acc + item.price * item.quantity, 0).toFixed(2)
+console.log("these all the items are coming from the cart", cartItems);
     return (
-        <div className='flex space-x-6 '>
+        <> 
+        <h2 className='h-1 font-bold'> Total Price : 
+            {TotalPrice}
+        </h2>
+          <div className='flex flex-wrap space-x-20 p-8 relative'>
+            <h2 onClick={()=> dispatch(clearCart())} className='mt-10 absolute -top-4 left-[600px] font-bold cursor-pointer'>Clear all</h2>
             {
-                cart.map((item, index) => {
+                cartItems?.map((item, index) => {
                     return (
-                        <div className='h-80 w-80 space-y-2 shadow-lg border-2' key={index}>
+                        <div className='h-[450px] border-1 rounded-lg border-black mt-8 w-80 space-y-2 shadow-lg ' key={index}>
                             <h2 className='font-bold'>Title : {item.title}</h2>
-                            <img className='h-32 w-76' src={item.image} alt="" />
+                            <img className='h-32 w-54 ml-12' src={item.image} alt="image" />
                             <h2>Price : {item.price}</h2>
                             <h2>Categroy : {item.category}</h2>
                             <div className='space-x-10'>
-                            <button onClick={()=>increasequantity(item)} className='border-1 bg-pink-300 rounded-lg'>increase</button>
-                            <span>Quantity : {item.quantity}</span>
-                            <button onClick={()=>decreasequantity(item)} className='border-1 bg-red-300 rounded-lg'>decrease</button>
-                            <button onClick={()=> removefromcart(item)} className='border-1 ml-20 bg-yellow-200 rounded-lg mt-6'>Remove from cart</button>
+                            <button onClick={()=>dispatch(increaseQuantity(item.id))} className='border-1 ml-10 cursor-pointer bg-black h-7 w-56 text-white rounded-lg'>increase</button>
+                            <span className='font-bold cursor-pointer ml-26 '>Quantity : {item.quantity}</span>
+                            <button onClick={()=>dispatch(decreaseQuantity(item.id))} className='border-1 rounded-lg bg-black text-white ml-10 h-7  w-56 cursor-pointer'>decrease</button>
+                            <button onClick={()=>dispatch(removeFromCart(item.id))} className='border-1 ml-20 bg-black rounded-lg p-2 text-white mt-3 h-10 cursor-pointer'>Remove from cart</button>
                             </div>
                         </div>
                     )
                 })
             }
-
         </div>
+        </>
     )
 }
 
