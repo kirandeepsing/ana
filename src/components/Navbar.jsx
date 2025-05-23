@@ -94,14 +94,19 @@ const Navbar = () => {
             <SheetHeader>
               <SheetTitle><img src="https://www.anayatglobalworks.com/assets/img/Logo-OnWhite.webp" alt="" /></SheetTitle>
               <SheetDescription>
-                <li className='list-none text-4xl mt-5'>home</li>
-                <li className='list-none text-4xl mt-5'>about us </li>
-                <li className='list-none text-4xl mt-5'>contact us</li>
-                <li className='list-none text-4xl mt-5' >adrress</li>
+                <Link to={"/"}><li className='list-none text-2xl mt-5'>Home</li></Link>
+               <Link to={"/about"}><li className='list-none text-2xl mt-5'>About us</li></Link>
+                <Link to={"/blog"}><li className='list-none text-2xl mt-5'>Blog</li></Link>
+               <Link to={"/contact"}><li className='list-none text-2xl mt-5'>Contact us</li></Link>
+              <Link to={"/mobile"}> <li className='list-none text-2xl mt-5' >Job</li></Link>
+              <Link to={"/wordpress"}> <li className='list-none text-2xl mt-5' >Mobile Development</li></Link>
+              <Link to={"/design"}> <li className='list-none text-2xl mt-5' >Wordpress Development</li></Link>
+              <Link to={"/digital"}> <li className='list-none text-2xl mt-5' >Ui Ux Design</li></Link>
+              <Link to={"/ecommerce"}> <li className='list-none text-2xl mt-5' >Digital Marketing</li></Link>
                 <hr />
-                <div className='flex mt-7 text-3xl'>
+                <div className='flex mt-7 text-xl'>
                   <h2>Get In Touch</h2>
-                  <div className='text-2xl'>
+                  <div className='text-xl'>
                     <h2>+91-8264266061</h2>
                     <h2>info@anayatglobalworks.com</h2>
                   </div>

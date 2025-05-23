@@ -57,7 +57,7 @@ const settings = {
 
 const Hero7 = () => {
   return (
-    <div className='md:h-[700px] h-[200px] min-w-[400px] flex flex-col gap-10'>
+    <div className='md:h-[700px] px-10 h-[200px] min-w-[400px] flex flex-col gap-10'>
           <div className='flex items-center justify-center mt-10'>
       <img className='h-3 w-20' src="https://www.anayatglobalworks.com/assets/img/line_l.png" alt="" />
      <h2>Feedbacks</h2> 

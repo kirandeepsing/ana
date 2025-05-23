@@ -4,7 +4,7 @@ import { LuDot } from "react-icons/lu";
 import "../css/web.css"
 const Ecommerce = () => {
   return (
-    <div className=''>
+    <div className='px-4'>
         {/* first sections */}
     <div className='h-54 bg-cover bg-center bg-gray-50' >
 <div className='flex p-3 space-x-4 text-lg'>

@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
-   <div  className="flex flex-wrap bg-[url('https://www.anayatglobalworks.com/assets/img/header/head7_bg.webp')] bg-cover bg-center min-h-[450px] w-full justify-between">
+   <div  className="flex  pt-7 px-4 flex-wrap bg-[url('https://www.anayatglobalworks.com/assets/img/header/head7_bg.webp')] bg-cover bg-center min-h-[450px] w-full justify-between">
       {/* this is the left side bar section */}
- <div className='h-[450px] flex flex-col md:w-1/2] md:ml-5'>
+ <div className=' flex flex-col md:w-1/2] md:ml-5'>
  <div className=' flex  gap-3 ml-4 items-center '>
         <img className='h-[7px] w-[70px]' src="https://www.anayatglobalworks.com/assets/img/line_l.png" alt="" />
       <h2 className='font-bold text-purple-500 text-sm'>Get solid solution </h2>
@@ -31,7 +31,7 @@ const Hero = () => {
     </div>
            {/* this is the right side bar section */}
 <div className=' sm:flex sm:flex-nowrap mt-32 sm:mt-0 md:ml-0  md:w-1/2'>
-  <img className='relative  min-w-[400px]' src="https://www.anayatglobalworks.com/assets/img/header/head_img7-min.webp" alt="" />
+  <img className='relative px-10 min-w-[400px]' src="https://www.anayatglobalworks.com/assets/img/header/head_img7-min.webp" alt="" />
   <motion.img
       className="w-32 h-32 absolute top-[600px] sm:relative sm:top-0  md:w-32 md:h-32 "
       src="https://www.anayatglobalworks.com/assets/img/header/head7_rock.webp"

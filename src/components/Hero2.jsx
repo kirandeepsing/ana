@@ -34,7 +34,7 @@ const images = [{
 
 const Hero2 = () => {
   return (
-    <div className='bg-gray-300 w-full min-w-[400px] max-w-[2000px]  h-[670px] mt-16 md:mt-20 sm:mt-10  flex flex-col justify-center gap-5 items-center'>
+    <div className='bg-gray-300 px-10 pt-12 pb-10 w-full min-w-[400px] max-w-[2000px] mt-16 md:mt-20 sm:mt-10  flex flex-col justify-center gap-5 items-center'>
       <div className='flex flex-wrap items-center'>
       <img className='h-3 w-20' src="https://www.anayatglobalworks.com/assets/img/line_l.png" alt="" />
       <h2 className='font-bold'>Features</h2>

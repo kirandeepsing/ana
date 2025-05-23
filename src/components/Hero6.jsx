@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero6 = () => {
   return (
-    <div className='bg-black flex flex-wrap h-[820px] sm:h-auto  mt-6 md:h-[900px] lg:h-[500px] min-w-[400px] max-w-[2000px] text-white'>
+    <div className='bg-black flex px-10 flex-wrap h-[820px] sm:h-auto  mt-6 md:h-[900px] lg:h-[500px] min-w-[400px] max-w-[2000px] text-white'>
       <div className='w-full  lg:w-96 h-[350px]  mt-8 md:mt-10 md:h[500px] flex flex-wrap flex-col gap-4 md:gap-7 justify-center items-center lg:ml-20'>
         <h2 className='font-bold'>why choose us </h2>
         <h1 className='text-4xl'>Why Choose Our Own

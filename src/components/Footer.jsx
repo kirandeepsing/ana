@@ -6,7 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (
 <>
-<div className='h-auto md:h-[450px]  min-w-[375px] sm:h-auto md:w-[full] lg:w-full xl:w-full  sm:ml-0 text-2xl md:ml-0    flex flex-wrap items-center bg-gray-100'>
+<div className='h-auto px-20 text-sm md:h-[450px]  min-w-[375px] sm:h-auto md:w-[full] lg:w-full xl:w-full  sm:ml-0 md:text-2xl md:ml-0    flex flex-wrap items-center bg-gray-100'>
       <div className=' w-full  md:w-[33%] md:ml-3 flex flex-col justify-evenly space-y-9 mt-5'>
         <img className='h-20 w-40' src="https://www.anayatglobalworks.com/assets/img/Logo-OnWhite.webp" alt="" />
         <h2 className='text-sm'>Our highly skilled development teams specialized in Java, PHP, React, Angular and AWS help you accelarate.</h2>

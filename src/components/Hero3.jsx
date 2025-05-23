@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from "framer-motion";
 const Hero3 = () => {
   return (
-    <div className='bg-[url("https://www.anayatglobalworks.com/assets/img/about/about7_lines.webp")] bg-cover bg-center h-[600px] w-full  items-center flex flex-wrap md:flex-nowrap mt-12 sm:mt-12 md:mt-10 lg:mt-2'>
+    <div className='px-6 bg-[url("https://www.anayatglobalworks.com/assets/img/about/about7_lines.webp")] bg-cover bg-center h-[600px] w-full  items-center flex flex-wrap md:flex-nowrap mt-12 sm:mt-12 md:mt-10 lg:mt-2'>
         {/* this section is for the left section */}
         <div className='flex flex-col ml-4 gap-4 w-[100%] sm:w-[40%]'>
         <div className='flex gap-3 items-center'>
@@ -28,7 +28,7 @@ const Hero3 = () => {
         </button>
         </div>
         {/* this section is for the right section */}
-        <div className='relative w-[44%] mt-12'>
+        <div className='relative -ml-20 w-[40%] md:w-[44%] mt-12'>
             <img className='min-w-96 ml-0' src="https://www.anayatglobalworks.com/assets/img/about/about7.webp" alt="" />
             <motion.img
   src="https://www.anayatglobalworks.com/assets/img/about/about7_chart.webp"

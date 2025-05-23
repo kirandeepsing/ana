@@ -4,8 +4,7 @@ html, body {
 #root {
   max-width: 1980px;
   margin: 0px auto;
-  margin-left: -20px;
-  padding-left: 8px;
+  margin-left: -22px;
 }
 
 .logo {
@@ -43,3 +42,6 @@ html, body {
 .read-the-docs {
   color: #888;
 }
+
+/* this section is for the media queries for all of the home sections */
+

@@ -39,7 +39,7 @@ const images = [{
 
 const Hero4 = () => {
   return (
-    <div className='herosection bg-gray-300 w-full min-w-[400px] max-w-[2000px] h-[600px] mt-66  sm:mt-20 flex flex-col justify-center gap-5 items-center'>
+    <div className='herosection px-10 bg-gray-300 w-full min-w-[400px] max-w-[2000px] h-[600px] mt-66  sm:mt-20 flex flex-col justify-center gap-5 items-center'>
       <div className='flex flex-wrap items-center'>
  
       <button className=' flex outline-none border-none bg-white w-32 border-2 h-10  items-center justify-around'>

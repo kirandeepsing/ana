@@ -52,10 +52,10 @@ const images = [{
   
 const Hero5 = () => {
   return (
-    <div className='flex min-w-[400px]  w-full sm:h-auto md:h-auto flex-wrap md:flex-nowrap mt-20'>
+    <div className=' flex min-w-[400px]  w-full sm:h-auto md:h-auto flex-wrap md:flex-nowrap mt-20'>
                    {/* this section is the left section basically */}
                    <div className='flex flex-col flex-wrap gap-4  items-center min-w-[400px] w-full md:w-1/3  h-[500px]'>
-<div className='flex mt-20 gap-4 '>
+<div className='flex -mt-16 md:mt-20 gap-4 '>
 <img className='h-3 w-20' src="https://www.anayatglobalworks.com/assets/img/line_l.png" alt="" />
 <p className='font-bold'>Case Study</p>
 </div>
