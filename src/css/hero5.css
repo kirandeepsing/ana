@@ -1,0 +1,35 @@
+@media(max-width: 635px){
+.herosection{
+    margin-top: 200px;
+}
+}
+@media(max-width: 481px){
+.herosection{
+    margin-top: 270px;
+}
+}
+@media(max-width: 441px){
+.herosection{
+    margin-top: 370px;
+}
+}
+@media(max-width: 356px){
+.herosection{
+    margin-top: 460px;
+}
+}
+@media(max-width: 287px){
+.herosection{
+    margin-top: 500px;
+}
+}
+@media(max-width: 239px){
+.herosection{
+    margin-top: 640px;
+}
+}
+@media(max-width: 214px){
+.herosection{
+    margin-top: 700px;
+}
+}

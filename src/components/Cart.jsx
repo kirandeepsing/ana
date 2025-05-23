@@ -13,7 +13,7 @@ console.log("these all the items are coming from the cart", cartItems);
             {TotalPrice}
         </h2>
           <div className='flex flex-wrap space-x-20 p-8 relative'>
-            <h2 onClick={()=> dispatch(clearCart())} className='mt-10 absolute -top-4 left-[600px] font-bold cursor-pointer'>Clear all</h2>
+            <h2 onClick={()=> dispatch(clearCart())} className='mt-10 absolute -top-4 left-[100px] font-bold cursor-pointer'>Clear all</h2>
             {
                 cartItems?.map((item, index) => {
                     return (

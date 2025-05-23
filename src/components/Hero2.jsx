@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/autoplay';
+import "../app.css"
 const images = [{
   img: "https://www.anayatglobalworks.com/assets/img/icons/fe2.png",
   txt:"user centeric design",

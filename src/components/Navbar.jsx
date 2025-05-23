@@ -1,4 +1,5 @@
 import React from 'react'
+import { IoIosArrowDown } from "react-icons/io";
 import { Link } from 'react-router-dom';
 import {
   Sheet,
@@ -13,12 +14,47 @@ import { useSelector } from 'react-redux';
 const Navbar = () => {
   const cartItems = useSelector((state) => state.cart.cartitems);
   return (
-    <div className='h-[90px] md:w-[full] bg-white shadow-sm z-20 sticky top-0  min-w-[400px] lg:w-full xl:w-full  flex flex-wrap justify-between w-full md:w-1/2]  '>
+    <div className='h-[90px] md:w-[full]  bg-white shadow-sm z-20 sticky top-0  min-w-[375px] lg:w-full xl:w-full  flex flex-wrap justify-between w-full md:w-1/2]  '>
       <img className='h-[80px] w-[190px]' src="https://www.anayatglobalworks.com/assets/img/Logo-OnWhite.webp" alt="" />
       <div className='flex flex-wrap'>
-        <ul className=' justify-center items-center gap-11 mr-4 hidden text-sm font-bold sm:flex'>
+        <ul className=' justify-center items-center gap-11 mr-4 hidden sm:hidden text-sm font-bold md:flex'>
           <li><Link to={"/"}>Home</Link></li>
           <li><Link to={"/about"}>About Us</Link></li>
+       <li className="relative group">
+  <Link className="hover:text-blue-500 flex visited:text-blue-500" to="/about">
+    Services
+    <IoIosArrowDown  className='mt-1'/>
+  </Link>
+  <ul className="absolute hidden group-hover:block duration-200 bg-white text-black h-66 top-5 -left-14 w-48 flex-col justify-center items-start space-y-2 p-4 z-10 rounded-2xl shadow-lg">
+    <li>
+      <Link to="/web" className="hover:text-gray-300 text-xs text-white-100">Web Development</Link>
+    </li>
+    <li>
+      <Link to="/mobile" className="hover:text-gray-300 text-xs text-white-100">Mobile App Development</Link>
+    </li>
+    <li>
+      <Link to="/wordpress" className="hover:text-gray-300 text-xs text-white-100">Wordpress Development</Link>
+    </li>
+    <li>
+      <Link to="/design" className="hover:text-gray-300 text-xs text-white-100">UI UX Design</Link>
+    </li>
+    <li>
+      <Link to="/digital" className="hover:text-gray-300 text-xs text-white-100">Digital Marketing</Link>
+    </li>
+    <li>
+      <Link to="/ecommerce" className="hover:text-gray-300 text-xs text-white-100">E-commerce Development</Link>
+    </li>
+    <li>
+      <Link to="/twilio" className="hover:text-gray-300 text-xs text-white-100">Twilio Development</Link>
+    </li>
+    <li>
+      <Link to="/python" className="hover:text-gray-300 text-xs text-white-100">Python Development</Link>
+    </li>
+    <li>
+      <Link to="/Aws" className="hover:text-gray-300 text-xs text-white-100">Aws Service</Link>
+    </li>
+  </ul>
+</li>
 
           <div>
             <li><Link to={"/products"} className='relative group'>Products</Link></li>

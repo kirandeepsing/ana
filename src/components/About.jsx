@@ -9,12 +9,12 @@ const About = () => {
     <>
     {/*this is for the top section */}
      <div className='about w-full md:w-[1000px] lg:w-full xl:w-full flex flex-col flex-wrap'>
-     <div className='home'>
+     <div className='home pl-10'>
       <Link to={"/"} className='link'>Home</Link>
       <h2>About</h2>
      </div>
-     <div className='h1'>
-      <h1>About Us</h1>
+     <div className='h1 pl-10'>
+      <h1 className='pl-5'>About Us</h1>
      </div>
     </div>
     {/* this is for the second section */}

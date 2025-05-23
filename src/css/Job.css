@@ -1,7 +1,6 @@
 .flexx{
     display: flex;
-
-    
+    justify-content: space-evenly;
 }
 .fullitem{
     display: flex;
@@ -49,10 +48,12 @@ font-size: 20px;
 .flex2{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .flex3{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .fullitem2{
     display: flex;
@@ -158,7 +159,7 @@ font-size: 15px;
 }
 @media (max-width:412px){
     .fullitem2 img {
-        height: 80px;
+        height: 80px;   
         width: 80px;
         margin-left: 200px;
         margin-bottom: 50px;
@@ -224,5 +225,15 @@ font-size: 15px;
 .textarea{
     width: 100%;
 }
-
+}
+@media (max-width:399px){
+    .flexx .fullitem {
+        min-width: 400px;
+    }
+    .fullitem2 {
+        min-width: 400px;
+    }
+    .last {
+    min-width: 400px;
+}
 }
