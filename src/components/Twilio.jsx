@@ -6,7 +6,7 @@ const Twilio = () => {
   return (
     <div className='px-4'>
         {/* first sections */}
-    <div className='h-54 bg-cover bg-center bg-gray-50' >
+    <div className='pb-10 bg-cover bg-center bg-gray-50' >
 <div className='flex p-3 space-x-4 text-lg'>
     <p className='mt-13'>Home</p>
     <p className='mt-13 font-bold'>Service Details</p>
@@ -241,7 +241,7 @@ Product Quality : </h4>
 <div className='mt-10 bg-gray-200 h-52   flex flex-col items-center justify-center'>
     <div>
         <h2 className='font-bold text-5xl ml-20 text-blue-500'>Get In Touch</h2>
-        <p className='mt-2'>More than 150+ companies trust and choose Anayat Global Works</p>
+        <p className='mt-2 px-10'>More than 150+ companies trust and choose Anayat Global Works</p>
     </div>
 </div>
    {/* form section */}
@@ -251,11 +251,11 @@ Product Quality : </h4>
         <input className='w-80 h-13 mt-16 bg-gray-100' type="text" placeholder='Phone number'/>
         <input className='w-80 h-13 mt-16 bg-gray-100' type="text" placeholder='Email adress'/>
     </div>
-    <div className='textarea'>
-<textarea className='w-[90%] bg-gray-100 md:ml-10 h-20 mt-10 border-1' name="" id="" placeholder='Message'></textarea>
+    <div className='textarea px-10'>
+<textarea className='w-[90%] px-10 bg-gray-100 md:ml-10 h-20 mt-10 border-1' name="" id="" placeholder='Message'></textarea>
     </div>
     <div className='button mt-10 sm:ml-[200px] ml-0 md:ml-[500px]'>
-        <button className='h-10 cursor-pointer hover:bg-blue-700 duration-300 rounded-sm shadow-blue-100 text-white shadow-xl w-44 bg-[#8796f3]'>Send your request</button>
+        <button className='h-10 ml-6 cursor-pointer hover:bg-blue-700 duration-300 rounded-sm shadow-blue-100 text-white shadow-xl w-44 bg-[#8796f3]'>Send your request</button>
         
     </div>
 

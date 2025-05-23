@@ -1,4 +1,5 @@
 import React from 'react'
+import "../css/blog.css"
 import {
     Accordion,
     AccordionContent,
@@ -9,7 +10,7 @@ import {
 
 const Hero8 = () => {
   return (
-    <div className='h-[650px] px-10 mt-[670px] sm:mt-[500px] min-w-[400px] min-h-[200px] md:mt-0 flex flex-col items-center bg-gray-100'>
+    <div className='carousel pb-10 px-10 mt-[670px] sm:mt-[500px] min-w-[400px] min-h-[200px] md:mt-0 flex flex-col items-center bg-gray-100'>
  <div className='flex items-center mt-20'>
     <img className='h-3 w-20' src="https://www.anayatglobalworks.com/assets/img/line_l.png" alt="" />
     <h1 className=''>FAQ'S</h1>
@@ -19,11 +20,11 @@ const Hero8 = () => {
     <h2 className='text-4xl font-bold'>Why Choose Us</h2>
  </div>
  {/* this section is mainly for accordion*/}
- <div className='w-full md:w-[90%] mt-3  text-lg '>
+ <div className='w-full md:w-[90%] mt-3 text-lg '>
  <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
-    <AccordionTrigger className=" bg-gray-300 font-bold hover:no-underline cursor-pointer">Skilled And Expirenced Team</AccordionTrigger>
-    <AccordionContent className="bg-amber-50 rounded-lg">
+    <AccordionTrigger className=" bg-gray-300 px-8 font-bold hover:no-underline cursor-pointer">Skilled And Expirenced Team</AccordionTrigger>
+    <AccordionContent className="bg-amber-50 px-8 rounded-lg">
       Yes. It adheres to the WAI-ARIA design pattern. Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
     </AccordionContent>
   </AccordionItem>
@@ -33,8 +34,8 @@ const Hero8 = () => {
  <div className='w-full md:w-[90%] mt-3'>
  <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
-    <AccordionTrigger className=" bg-gray-300 font-bold hover:no-underline cursor-pointer">Deliver As per costumer needs</AccordionTrigger>
-    <AccordionContent className="bg-amber-50 rounded-lg">
+    <AccordionTrigger className=" bg-gray-300 px-8 font-bold hover:no-underline cursor-pointer">Deliver As per costumer needs</AccordionTrigger>
+    <AccordionContent className="bg-amber-50 px-8 rounded-lg">
       Yes. It adheres to the WAI-ARIA design pattern. Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
     </AccordionContent>
   </AccordionItem>
@@ -44,8 +45,8 @@ const Hero8 = () => {
  <div className='w-full md:w-[90%] mt-3'>
  <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
-    <AccordionTrigger className=" bg-gray-300 font-bold hover:no-underline cursor-pointer" >Covering mobile app development solutions </AccordionTrigger>
-    <AccordionContent className="bg-amber-50 rounded-lg">
+    <AccordionTrigger className=" bg-gray-300 px-8 font-bold hover:no-underline cursor-pointer" >Covering mobile app development solutions </AccordionTrigger>
+    <AccordionContent className="bg-amber-50 px-8 rounded-lg">
       Yes. It adheres to the WAI-ARIA design pattern. Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
     </AccordionContent>
   </AccordionItem>
@@ -55,8 +56,8 @@ const Hero8 = () => {
  <div className='w-full md:w-[90%] mt-3'>
  <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
-    <AccordionTrigger className=" bg-gray-300 font-bold hover:no-underline cursor-pointer">providing mobile web development solutions </AccordionTrigger>
-    <AccordionContent className="bg-amber-50 rounded-lg">
+    <AccordionTrigger className=" bg-gray-300 px-8 font-bold hover:no-underline cursor-pointer">providing mobile web development solutions </AccordionTrigger>
+    <AccordionContent className="bg-amber-50 px-8 rounded-lg">
       Yes. It adheres to the WAI-ARIA design pattern. Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
     </AccordionContent>
   </AccordionItem>
@@ -66,8 +67,8 @@ const Hero8 = () => {
  <div className='w-full md:w-[90%] mt-3'>
  <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
-    <AccordionTrigger className=" bg-gray-300 font-bold hover:no-underline cursor-pointer">One of the top ratred agencies on the upwork </AccordionTrigger>
-    <AccordionContent className="bg-amber-50 rounded-lg">
+    <AccordionTrigger className=" bg-gray-300 px-8 font-bold hover:no-underline cursor-pointer">One of the top ratred agencies on the upwork </AccordionTrigger>
+    <AccordionContent className="bg-amber-50 px-8 rounded-lg">
       Yes. It adheres to the WAI-ARIA design pattern. Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
     </AccordionContent>
   </AccordionItem>
@@ -77,8 +78,8 @@ const Hero8 = () => {
  <div className='w-full md:w-[90%] mt-3 hover:no-underline cursor-pointer'>
  <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
-    <AccordionTrigger className=" bg-gray-300 hover:no-underline cursor-pointer font-bold">Qualified web developers at the servoce for the costumer need</AccordionTrigger>
-    <AccordionContent className="bg-amber-50 rounded-lg">
+    <AccordionTrigger className=" bg-gray-300 px-8 hover:no-underline cursor-pointer font-bold">Qualified web developers at the servoce for the costumer need</AccordionTrigger>
+    <AccordionContent className="bg-amber-50 px-8 rounded-lg">
       Yes. It adheres to the WAI-ARIA design pattern. Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
     </AccordionContent>
   </AccordionItem>
@@ -88,8 +89,8 @@ const Hero8 = () => {
  <div className='w-full md:w-[90%] mt-3'>
  <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
-    <AccordionTrigger className=" bg-gray-300 font-bold hover:no-underline cursor-pointer">Hire thebest web development company at your prevlience </AccordionTrigger>
-    <AccordionContent className="bg-amber-50 rounded-lg">
+    <AccordionTrigger className=" bg-gray-300 px-8 font-bold hover:no-underline cursor-pointer">Hire thebest web development company at your prevlience </AccordionTrigger>
+    <AccordionContent className="bg-amber-50 px-8 rounded-lg">
       Yes. It adheres to the WAI-ARIA design pattern. Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern.   Yes. It adheres to the WAI-ARIA design pattern. 
     </AccordionContent>
   </AccordionItem>

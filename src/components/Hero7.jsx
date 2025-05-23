@@ -69,7 +69,7 @@ const Hero7 = () => {
     </div>
     <div>
 {/* this section is the top section basically */}
-<div className='relative flex z-10  flex-col gap-5 md:ml-24  space-y-10 w-full min-w-[400px] md:w-[80%]  '>
+<div className='relative flex z-10 px-14 md:px-0  flex-col gap-5 md:ml-24  space-y-10 w-full min-w-[400px] md:w-[80%]  '>
 <Slider {...settings}>
       {
         images.map((item,index)=>{

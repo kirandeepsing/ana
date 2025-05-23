@@ -49,7 +49,7 @@ const Footer = () => {
       </div>
     </div>
  <div className='h-32 md:w-full   min-w-[375px] flex-wrap lg:w-full xl:w-full  md:ml-0 bg-gray-100 flex items-center justify-center'>
-    <h2 className='text-center h-20 w-full bg-white rounded-full flex items-center justify-center'>Full Copyright & Design By @anayatglobalworks - 2024</h2>
+    <h2 className='text-center px-20 h-20 w-full bg-white rounded-full flex items-center justify-center'>Full Copyright & Design By @anayatglobalworks - 2024</h2>
 
  </div>
 </>

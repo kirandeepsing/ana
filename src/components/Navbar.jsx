@@ -94,15 +94,21 @@ const Navbar = () => {
             <SheetHeader>
               <SheetTitle><img src="https://www.anayatglobalworks.com/assets/img/Logo-OnWhite.webp" alt="" /></SheetTitle>
               <SheetDescription>
-                <Link to={"/"}><li className='list-none text-2xl mt-5'>Home</li></Link>
-               <Link to={"/about"}><li className='list-none text-2xl mt-5'>About us</li></Link>
-                <Link to={"/blog"}><li className='list-none text-2xl mt-5'>Blog</li></Link>
-               <Link to={"/contact"}><li className='list-none text-2xl mt-5'>Contact us</li></Link>
-              <Link to={"/mobile"}> <li className='list-none text-2xl mt-5' >Job</li></Link>
-              <Link to={"/wordpress"}> <li className='list-none text-2xl mt-5' >Mobile Development</li></Link>
-              <Link to={"/design"}> <li className='list-none text-2xl mt-5' >Wordpress Development</li></Link>
-              <Link to={"/digital"}> <li className='list-none text-2xl mt-5' >Ui Ux Design</li></Link>
-              <Link to={"/ecommerce"}> <li className='list-none text-2xl mt-5' >Digital Marketing</li></Link>
+                <Link to={"/"}><li className='list-none text-lg mt-2'>Home</li></Link>
+               <Link to={"/about"}><li className='list-none text-lg mt-2'>About us</li></Link>
+                <Link to={"/blog"}><li className='list-none text-lg mt-2'>Blog</li></Link>
+               <Link to={"/contact"}><li className='list-none text-lg mt-2'>Contact us</li></Link>
+              <Link to={"/mobile"}> <li className='list-none text-lg mt-2' >Job</li></Link>
+              <Link to={"/wordpress"}> <li className='list-none text-lg mt-2' >Mobile Development</li></Link>
+              <Link to={"/design"}> <li className='list-none text-lg mt-2' >Wordpress Development</li></Link>
+              <Link to={"/digital"}> <li className='list-none text-lg mt-2' >Ui Ux Design</li></Link>
+              <Link to={"/ecommerce"}> <li className='list-none text-lg mt-2' >eCOMMERCE</li></Link>
+              <Link to={"/twilio"}> <li className='list-none text-lg mt-2' >Twilio</li></Link>
+              <Link to={"/python"}> <li className='list-none text-lg mt-2' >Python</li></Link>
+              <Link to={"/Aws"}> <li className='list-none text-lg mt-2' >Aws</li></Link>
+              <Link to={"/products"}> <li className='list-none text-lg mt-2' >Products</li></Link>
+              <Link to={"/products"}> <li className='list-none text-lg mt-2' >Create</li></Link>
+    
                 <hr />
                 <div className='flex mt-7 text-xl'>
                   <h2>Get In Touch</h2>

@@ -18,7 +18,7 @@ const About = () => {
      </div>
     </div>
     {/* this is for the second section */}
-    <div className='flex flex-col flex-wrap w-full justify-center items-center'>
+    <div className='flex px-10 flex-col flex-wrap w-full justify-center items-center'>
     <div className='second flex flex-wrap w-full  md:w-[1000px] lg:w-full xl:w-full'>
         {/* this is first div */}
       <div className='md:w-[1000px] px-4'>
@@ -79,8 +79,8 @@ const About = () => {
           </div>
         <div className='flex md:w-[1000px] mt-3'>
         <Check />
-        <h1 className='font-bold text-sm '>Our Values :</h1>
-<p className='text-sm ml-3 mt-0'>Anayat Global is a leading web development and mobile application firm that offers personalized web-based sevices have
+        <h1 className='font-bold text-sm'>Our Values :</h1>
+<p className='text-sm ml-3 mt-0 px-10'>Anayat Global is a leading web development and mobile application firm that offers personalized web-based sevices have
 </p>
         </div>
         </div>
@@ -93,19 +93,19 @@ const About = () => {
           <div className='flex md:w-[1000px] mt-3  '>
         <Check />
         <h1 className='font-bold text-sm'>Our History:</h1>
-<p className='text-sm ml-3 mt-0'>Anayat Global was founded in the year 2018. Since the inception of our company , we've assisted our clients in meeting 
+<p className='text-sm ml-3 mt-0 px-10'>Anayat Global was founded in the year 2018. Since the inception of our company , we've assisted our clients in meeting 
 </p>
           </div>
           <div className='flex md:w-[1000px] mt-3  '>
         <Check />
         <h1 className='font-bold text-sm'>Satisfaction:</h1>
-<p className='text-sm ml-3 mt-0'>Anayat Global was founded in the year 2018. Since the inception of our company , we've assisted our clients in meeting 
+<p className='text-sm ml-3 mt-0 px-10'>Anayat Global was founded in the year 2018. Since the inception of our company , we've assisted our clients in meeting 
 </p>
           </div>
           <div className='flex md:w-[1000px] mt-3  '>
         <Check />
         <h1 className='font-bold text-sm'>Relationship :</h1>
-<p className='text-sm ml-3 mt-0'>Anayat Global was founded in the year 2018. Since the inception of our company , we've assisted our clients in meeting 
+<p className='text-sm ml-3 mt-0 px-10'>Anayat Global was founded in the year 2018. Since the inception of our company , we've assisted our clients in meeting 
 </p>
           </div>
         </div>
@@ -118,7 +118,7 @@ const About = () => {
     <div className='culture flex flex-wrap md:w-[900px]'>
       <div>
       <h2 className='font-bold text-xl'>Our Culture And Character</h2>
-      <p className='text-sm mt-8'>We have a positive work culture in place to establish mutual trust and respect between all. With us you get diverse yet skilled workforce to think out-of-the-box that not only match but exceeds your expectations. Our dedicated and solution-oriented character differentiates us from others. This is what makes us your go-to option for all your mobile and web development service needs.</p>
+      <p className='text-sm mt-8 px-10'>We have a positive work culture in place to establish mutual trust and respect between all. With us you get diverse yet skilled workforce to think out-of-the-box that not only match but exceeds your expectations. Our dedicated and solution-oriented character differentiates us from others. This is what makes us your go-to option for all your mobile and web development service needs.</p>
       </div>
     </div>
     <div className='relative md:w-[1000px] flex  culture2'>

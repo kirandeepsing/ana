@@ -9,4 +9,9 @@ color:white
     margin-top: 10px;
     margin-left: 30px;
 }
+@media(max-width: 470px){
+    .carousel{
+    margin-top: 760px;
+}
 
+}

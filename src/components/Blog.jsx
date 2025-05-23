@@ -7,7 +7,7 @@ const Blog = () => {
             {/*top section mainly for the carousel section*/}
             <div className='journal h-44 flex min-w-[400px] flex-wrap flex-col w-full justify-center items-center'>
                 <h2 className='text-4xl font-bold'>Our Journal</h2>
-                <p className='mt-5'>Get the latest articles from our journal, writing, discuss and share</p>
+                <p className='mt-5 px-10'>Get the latest articles from our journal, writing, discuss and share</p>
             </div>
             {/*this is the second section*/}
             <div className='blog1 min-w-[400px] ml-3 sm:ml-0 relative text-white flex justify-center '>
@@ -213,7 +213,7 @@ const Blog = () => {
             <hr />
 
             {/* this is the last section of the blog component */}
-            <div className='w-96 newsletter space-y-5 flex flex-col justify-center px-5 h-92 ml-5 border-1 rounded-2xl'>
+            <div className='w-96 px-15 newsletter space-y-5 flex flex-col justify-center md:px-5 h-92 ml-5 border-1 rounded-2xl'>
                 {/* this is the first div */}
                 <h2 className='font-bold'>NEWSLETTER</h2>
                 <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ratione ?</p>
@@ -225,7 +225,7 @@ const Blog = () => {
                 </button>
             </div>
             {/* this is the 2nd of last section of the blog component */}
-            <div className='social-wi w-96 h-20 mt-10 text-lg ml-5 font-bold'>
+            <div className='social-wi px-10 md:px-0 w-96 h-20 mt-10 text-lg ml-5 font-bold'>
                 <h2>Social</h2>
                 <div className='flex space-x-5 mt-7'>
                     <Facebook />
@@ -234,7 +234,7 @@ const Blog = () => {
                     <Youtube />
                 </div>
             </div>
-            <div className='social-w w-96 h-52 mt-10 text-lg ml-5  font-bold'>
+            <div className='social-w px-10 md:px-0 w-96 h-52 mt-10 text-lg ml-5  font-bold'>
                 <h2>Our Instagram</h2>
                 <div className='grid mt-4 ml-5 grid-cols-3  w-80'>
                     <img className='h-18 w-32 rounded-lg cursor-pointer' src="https://www.anayatglobalworks.com/assets/img/blog/1.jpeg" alt="" />
@@ -249,7 +249,7 @@ const Blog = () => {
             </div>
 
             {/* this is the last section of the blog */}
-            <div className='px-5 mt-8 h-44'>
+            <div className='px-10 md:px-0 mt-8 h-44'>
                 <h2 className='text-xls'>Popular Tags</h2>
                 <div className='flex gap-1 text-sm mt-6'>
                     <span className='border-1 bg-gray-100'>wordpress</span>

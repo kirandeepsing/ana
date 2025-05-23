@@ -54,7 +54,7 @@ const Hero5 = () => {
   return (
     <div className=' flex min-w-[400px]  w-full sm:h-auto md:h-auto flex-wrap md:flex-nowrap mt-20'>
                    {/* this section is the left section basically */}
-                   <div className='flex flex-col flex-wrap gap-4  items-center min-w-[400px] w-full md:w-1/3  h-[500px]'>
+                   <div className='flex flex-col flex-wrap gap-4  items-center min-w-[400px] w-full md:w-1/3  h-auto pt-5 pb-5'>
 <div className='flex -mt-16 md:mt-20 gap-4 '>
 <img className='h-3 w-20' src="https://www.anayatglobalworks.com/assets/img/line_l.png" alt="" />
 <p className='font-bold'>Case Study</p>
@@ -98,7 +98,7 @@ Branding Design
       {
         images.map((item,index)=>{
             return(
-                <div className='flex gap-5 justify-between space-y-6 md:w-1/2 border-1  items-center rounded-lg  bg-gray-400 h-[500px] mt-2 w-full' key={index}>
+                <div className='flex pt-6 gap-5 justify-between space-y-6 md:w-1/2 border-1  items-center rounded-lg  bg-gray-400 h-[500px] mt-2 w-full' key={index}>
 <h2 className='text-center font-bold'> {item.txt}</h2>
 <h2 className='text-center font-bold text-lg'>Portugus ui uix Design</h2>
 <img className='text-center ml-6' src={item.img} alt="" />
