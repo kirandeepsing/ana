@@ -108,6 +108,7 @@ const Navbar = () => {
               <Link to={"/Aws"}> <li className='list-none text-lg mt-2' >Aws</li></Link>
               <Link to={"/products"}> <li className='list-none text-lg mt-2' >Products</li></Link>
               <Link to={"/products"}> <li className='list-none text-lg mt-2' >Create</li></Link>
+              <Link to={"/cart"}> <li className='list-none text-lg mt-2' >Cart</li></Link>
     
                 <hr />
                 <div className='flex mt-7 text-xl'>

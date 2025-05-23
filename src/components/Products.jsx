@@ -39,7 +39,7 @@ const Products = () => {
   return (
     <>
       <h2 className='text-center text-lg font-bold mt-5'>Products</h2>
-      <div className='mt-10 relative  flex justify-center items-center space-y-10 space-x-20 flex-wrap'>
+      <div className='mt-10 relative px-20 flex justify-center items-center space-y-10 space-x-20 flex-wrap'>
         {
           dataa.map((item, index) => {           
             return (

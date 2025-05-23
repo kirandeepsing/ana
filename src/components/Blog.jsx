@@ -11,7 +11,7 @@ const Blog = () => {
             </div>
             {/*this is the second section*/}
             <div className='blog1 min-w-[400px] ml-3 sm:ml-0 relative text-white flex justify-center '>
-                <img className='w-full rounded-2xl' src="https://media.istockphoto.com/id/1352603244/photo/shot-of-an-unrecognizable-businessman-working-on-his-laptop-in-the-office.webp?a=1&b=1&s=612x612&w=0&k=20&c=DNh3mMglIT-Oryjr8NemB8N50K0ZkjngHK6q3Y9_8MY=" alt="" />
+                <img className='w-full rounded-2xl px-3' src="https://media.istockphoto.com/id/1352603244/photo/shot-of-an-unrecognizable-businessman-working-on-his-laptop-in-the-office.webp?a=1&b=1&s=612x612&w=0&k=20&c=DNh3mMglIT-Oryjr8NemB8N50K0ZkjngHK6q3Y9_8MY=" alt="" />
                 <div className='blog-2widt absolute ml-10 pr-10 top-54 left-0 w-96'>
                     <div className='blog2-w flex space-x-4'>
                         <h2>News</h2> <span>Posted 3 Days Ago</span>
@@ -23,7 +23,7 @@ const Blog = () => {
             </div>
 
             {/*popular post section */}
-            <h2 className='text-center mt-20 text-2xl font-bold'>Popular Posts</h2>
+            <h2 className='popular text-center sm:mt-20 md:mt-20 mt-32 text-2xl font-bold'>Popular Posts</h2>
             <div className='popularpost h-[600px] flex flex-wrap'>
                 <div>
                     {/*first div */}
@@ -90,7 +90,7 @@ const Blog = () => {
 
             <div className='h-[840px] flex flex-wrap search'>
                 {/* this is the left div */}
-                <div className='searchh w-96 h-[800px] ml-6 flex flex-col space-y-8  shadow-sm rounded-2xl'>
+                <div className='searchh w-96 mt-14 sm:mt-0 md:mt-0 h-[800px] ml-6 flex flex-col space-y-8  shadow-sm rounded-2xl'>
                     <h2>Search</h2>
                     <div className='flex h-12 rounded-2xl w-80 border-2 px-4 items-center justify-center' >
                         <input className='w-80 border-none outline-0 rounded-2xl h-12' placeholder='seach here' type="text" />
@@ -213,7 +213,7 @@ const Blog = () => {
             <hr />
 
             {/* this is the last section of the blog component */}
-            <div className='w-96 px-15 newsletter space-y-5 flex flex-col justify-center md:px-5 h-92 ml-5 border-1 rounded-2xl'>
+            <div className='w-96 px-10 newsletter space-y-5 flex flex-col justify-center md:px-5 h-92 ml-5 border-1 rounded-2xl'>
                 {/* this is the first div */}
                 <h2 className='font-bold'>NEWSLETTER</h2>
                 <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ratione ?</p>
@@ -234,7 +234,7 @@ const Blog = () => {
                     <Youtube />
                 </div>
             </div>
-            <div className='social-w px-10 md:px-0 w-96 h-52 mt-10 text-lg ml-5  font-bold'>
+            <div className='social-w px-4 md:px-0 w-96 h-52 mt-10 text-lg ml-5  font-bold'>
                 <h2>Our Instagram</h2>
                 <div className='grid mt-4 ml-5 grid-cols-3  w-80'>
                     <img className='h-18 w-32 rounded-lg cursor-pointer' src="https://www.anayatglobalworks.com/assets/img/blog/1.jpeg" alt="" />

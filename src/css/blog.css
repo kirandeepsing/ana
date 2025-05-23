@@ -15,3 +15,15 @@ color:white
 }
 
 }
+@media(max-width: 600px){
+   .popular{
+    margin-top: 50px;
+   }
+
+}
+@media(max-width: 450px){
+   .popular{
+    margin-top: 130px;
+   }
+
+}
